@@ -1,0 +1,68 @@
+/* cú pháp
+selector  */
+/* thuoc tinh: color
+- name: ten mau sac (blue,...)
+- hex:#ffff,....
+-rgb: rgb(255,255,265)
+-rgba: a(nghia la do mờ của màu, có giá trị từ 0 tới 1) */
+.demo {
+    color: rgb(233,222,100);
+}
+.demo2 {
+    color: rgba(233,222,100,0,5);
+}
+/* kích thước trong css */
+/* overflow: hidden để sử dụng để cắt nội dung bị vượt quá kích thước của đoạn
+overflow-y: visible: để tạo thanh cuộn nội dung lên xuống  */
+/* min-height: để ghi là chiều cao nhỏ nhất là..., còn khi nội dung nhiều thì nó phủ kín nội dung đó
+max-height: để ghi chiều cao lớn nhất
+tương tự sẽ có min-wigth, max-width, min-width */
+.background {
+    background-color: brown;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    overflow-y: visible;
+}
+/* thuộc tính background */
+/* background size: cover : dùng để phủ hết kthuoc background
+background repeat: no repeat : sử dụng cho những ảnh quá nhỏ bị phủ nhiều lần trên màn hình */
+.background2 {
+background-image: url(https://sgv.edu.vn/uploads/images/info/con-cho-tieng-nhat-la-gi.png);
+background-position: center center;
+width: 300px
+height: 500px
+;
+}
+/* đơn vị trong css
+- px
+- em là đơn vị, đe, rem: để sử dụng tối ưu layout */
+.rem {
+
+}
+.border {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    overflow: 
+    border-top:;
+}
+/* thuộc tính margin: khoảng cách giữa các phần tử */
+.margin {
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+            margin: 20px}
+/* margin: 4 phía cách đều */
+/* margin: trên dưới, trái phải */
+/* margin: trên, trái phải, dưới */
+/* thuộc tính padding: khoảng cách lề giữa kí tự và khung */
+/* thuộc tính box-sizing: để kích thước bao gồm cả trong 1 box */
+.box {
+    width: 200px;
+height: 200px;
+background-color: aqua;
+border: 2px solid black;
+padding: 10px;
+box-sizing: border-box;
+}

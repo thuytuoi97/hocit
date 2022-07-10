@@ -1,0 +1,124 @@
+.background { 
+   width: 100%;
+   height: 100vh;
+   background-image: linear-gradient(0, rgba(200, 5, 60, 0.5), rgba(200, 5, 60, 0.5)),
+   url(https://dbk.vn/uploads/ckfinder/images/tranh-anh/Anh-thien-nhien-1.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+}
+.element1 {
+   box-sizing: border-box;
+   padding: 10px 20px 15px 25px;
+   width: 100px;
+   height: 100px;
+   border: 1px solid aqua;
+   margin: 20px;
+   overflow: hidden;
+}
+.element2 {
+   box-sizing: border-box;
+   padding: 10px 20px 15px 25px;
+   width: 100px;
+   height: 100px;
+   border: 1px solid gray;
+   margin: 20px;
+   overflow: hidden;
+}
+.element3 {
+   box-sizing: border-box;
+   padding: 10px 20px 15px 25px;
+   width: 100px;
+   height: 100px;
+   border: 1px solid brown;
+   margin: 20px;
+   overflow: hidden;
+}
+.element4 {
+   box-sizing: border-box;
+   padding: 10px 20px 15px 25px;
+   width: 100px;
+   height: 100px;
+   border: 1px solid chocolate;
+   margin: 20px;
+   overflow: hidden;
+}
+.element5 {
+   box-sizing: border-box;
+   padding: 10px 20px 15px 25px;
+   width: 100px;
+   height: 100px;
+   border: 1px solid seagreen;
+   margin: 20px;
+   overflow: hidden;
+}
+.element6 {
+   box-sizing: border-box;
+   padding: 10px 20px 15px 25px;
+   width: 100px;
+   height: 100px;
+   border: 1px solid darkorchid;
+   margin: 20px;
+   overflow: hidden;
+}
+.element7 {
+   box-sizing: border-box;
+   padding: 10px 20px 15px 25px;
+   width: 100px;
+   height: 100px;
+   border:1px solid green;
+   margin: 20px;
+   overflow: hidden;
+}
+.element8 {
+   box-sizing: border-box;
+   padding: 10px 20px 15px 25px;
+   width: 100px;
+   height: 100px;
+   border: 1px solid deeppink;
+   margin: 20px;
+   overflow: hidden;
+}
+.element9 {
+   box-sizing: border-box;
+   padding: 10px 20px 15px 25px;
+   width: 100px;
+   height: 100px;
+   border: 1px solid gold;
+   margin: 20px;
+   overflow: hidden;
+}
+.element10 {
+   box-sizing: border-box;
+   padding: 10px 20px 15px 25px;
+   width: 100px;
+   height: 100px;
+   border: 1px solid maroon;
+   margin: 20px;
+   overflow: hidden;
+}
+.rem1 {
+   box-sizing: border-box;
+   width: 10rem;
+   height: 10rem;
+   background-color: rgba(200, 5, 60, 0.3);
+   overflow: hidden;
+}
+.rem2 {
+   box-sizing: border-box;
+   width: 15rem;
+   height: 15rem;
+   background-color: rgba(200, 5, 60, 0.6);
+   overflow: hidden;
+}
+.phapvuong {
+   width: 200px;
+   height: 200px;
+   object-fit: cover;
+   border-radius: 3%;
+}
+.phaptron {
+   width: 200px;
+   height: 200px;
+   object-fit: cover;
+   border-radius: 50%;
+}
