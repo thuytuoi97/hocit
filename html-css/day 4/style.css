@@ -1,0 +1,63 @@
+/* Các thẻ Inline: khong set được: width, height, margin top, margin bottom */
+.demo1 {
+    width: 200px;
+    display: block;
+    /* display: block: để chuyển thẻ inline thành block
+    Trong 1 số trường hợp không cần tràn thẻ hết ra cả mà hình mà chỉ cần thêm margin thì sử dụng thẻ display: inline-block */
+   /*display: none để ẩn phần tử  */
+}
+/* Các thuộc tính về font */
+.font {
+    /* font-family:tên font, kiểu font; */
+    /* font-weight: để tăng độ đậm của chữ. Giá trị càng nhỏ thì độ đậm càng nhỏ */
+    /* font-style: tạo kiểu chữ nghiêng, bình thường */
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px  ;
+    font-weight: 100;
+    font-style: italic;
+}
+/* có thể sử dụng @import url('./thư mục font cùng loại với file code */
+/* để chỉnh tất cả các font size của cả trang web thì style cho html */
+/* Các thuộc tính về text */
+.text {
+    /* color: đổi màu các chữ */
+    /* text align: căn chỉnh lề đoạn văn */
+    /* text decoration: tạo kiểu chữ: gạch chân, gạch giữa chữ, đóng khung,... */
+    /* text-transform: tạo chữ in hoa toàn bô hoặc chữ cái đầu, bình thường,... */
+    /* letter-spacing: khoảng cách giữa các kí tự */
+    /* word-spacing: khoảng cách giữa các từ */
+    /* line-height: khoảng cách giữa các dong */
+    /* white-space: khoảng cách trắng */
+
+    color: aqua;
+    text-align: justify;
+    text-decoration: overline;
+    text-transform:capitalize;
+    letter-spacing: 5px ;
+    word-spacing: 10px;
+    line-height: 1.4;
+    white-space: nowrap ;
+} 
+/* Các thuộc tính của img */
+.img {
+    /*object-fit: để ảnh tràn đủ trang web  */
+    /*border-radiun: để ảnh tb  */
+    width: 100wv;
+    width: 100wv;
+    height: 100vh;
+    object-fit: cover; 
+    border-radius: 50%;
+}
+/* pseudo-class:  */
+/*  */
+.hover {
+    transition: all, 0.3s;
+}
+.hover:hover {
+    color: brown;
+    text-transform: uppercase;
+}
+.visited: :visited;
+    color: yellow;
+/* Transitions: Cho phéo thay đổi giá trị thuộc tính mượt hơn */
+/.hover

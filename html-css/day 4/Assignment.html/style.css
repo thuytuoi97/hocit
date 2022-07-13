@@ -1,0 +1,62 @@
+.span {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+.span1 {
+    background-color: aqua;
+}
+.span2 {
+    background-color: brown;
+}
+.span3 {
+    background-color: chartreuse;
+}
+.assignment2 {
+    width: 500px;
+    height: 500px;
+    background-attachment: fixed;
+    background-color: aqua;
+    overflow: hidden;
+    font-weight: normal;
+    font-size: 48px;
+    text-align: center;
+    text-transform: inherit;
+    letter-spacing: 2px;
+    word-spacing: 10px ;
+    line-height: 1.5.;
+
+}
+.box3 {
+    width: auto;
+    height: inherit;
+    border: solid;
+    margin: 30px;
+}
+.assignment3-1 {
+    white-space: nowrap;
+}
+.assignment3-2 {
+    max-width: 500px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+}
+.assignment4 {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    box-shadow: 10px 10px 20px rgb(171, 125, 125);
+}
+div.assignment4:hover {
+    background-color: palevioletred;
+}
+div.assignment4:active {
+    background-color: chartreuse;
+}
+
+

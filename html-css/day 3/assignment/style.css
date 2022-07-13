@@ -122,3 +122,6 @@
    object-fit: cover;
    border-radius: 50%;
 }
+html {
+   font-size: 62,5% ;
+}
